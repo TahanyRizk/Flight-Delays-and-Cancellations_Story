@@ -1,0 +1,41 @@
+Flight Delays and Cancellations Story
+
+•	Summary
+
+This Story visualize a data set of Flight Delays and Cancellations including their Airport, Airline,  State ,Country ,Cancelled ,cancelled reasons and a new variable added called  
+Total Delay = Air System Delay+ Airline Delay+ Arrival Delay + Departure Delay + Late Aircraft Delay + Security Delay + Weather Delay 
+
+The link of the story:
+https://public.tableau.com/app/profile/tahanyrizk/viz/FlightDelaysCancellation2/Story2?publish=yes
+
+
+•	Design
+
+1st visualization is 3 plots of bar charts show 
+
+The Airline vs Total Delay: it shows that Southwest Airlines co has the highest delay.
+The Airport vs Total Delay: Chicago Midway Internation Airport has the heights delay.
+The Most Delay Reasons: it shows that Departure delay is the most reason for delay 
+
+The bar here is simple and clear.
+
+
+2nd visualization is a multiple visualization of Line charts show
+ 
+The Total delay vs Month and weekdays in one chart: found that July has the highest delay among all months. Middle of week (day 3, 4, 5) are the most frequent of high delay in week days.
+
+Line chart is the best choice to see the variation with time.
+
+
+3rd visualization is a map show 
+The states vs cancellation with different reason of cancellation via the filter
+Found that MA State has the most cancellation. Most cancellation are due to weather Conditions.
+
+Map chart is an easy way to show variations over different locations
+
+•	Feedback: I received a feedback to :
+•	Remove null values from the filter, so a new set is created to exclude the null values.
+•	The Axis of week day should exclude values of 0 and 8 , so the axis is  edit to start with 1 to 7 .
+
+•	Resources 
+https://www.kaggle.com/datasets/usdot/flight-delays?select=flights.csv
